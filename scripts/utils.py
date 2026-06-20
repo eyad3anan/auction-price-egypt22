@@ -32,5 +32,5 @@ def save_object(obj, name):
 def load_object(name):
     return joblib.load(os.path.join(MODEL_DIR, name))
 
-CONDITION_ORDER = ["For Parts","Poor","Acceptable","Fair","Good","Very Good","Excellent","Like New","New"]
+CONDITION_ORDER = ["For Parts","Poor","Fair","Good","Very Good","Excellent","Like New","New"]
 DAY_MAP = {"Monday":0,"Tuesday":1,"Wednesday":2,"Thursday":3,"Friday":4,"Saturday":5,"Sunday":6}

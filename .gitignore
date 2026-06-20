@@ -1,24 +1,11 @@
-# Python
 __pycache__/
-*.py[cod]
-*.egg-info/
-.eggs/
-dist/
-build/
-.env
-venv/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
 .venv/
-
-# Data
-*.csv
-
-# IDE
-.vscode/
-.idea/
-
-# OS
+venv/
+*.egg-info/
 .DS_Store
-Thumbs.db
-
-# Outputs (generated at runtime)
-outputs/
+outputs/eda_figures/
+outputs/*.csv
+outputs/*.png
